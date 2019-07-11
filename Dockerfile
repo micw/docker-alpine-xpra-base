@@ -1,4 +1,4 @@
-FROM alpine:edge
+FROM alpine:3.9
 
 RUN apk add --no-cache --update shadow bash xpra py2-pip xterm && \
     pip install websockify lz4 && \
